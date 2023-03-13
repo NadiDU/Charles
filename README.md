@@ -41,5 +41,5 @@ Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
  
- <img src="[https://github.com/NadiDU/Charles/blob/main/HW/1.png](https://github.com/NadiDU/Charles/blob/main/HW/3.png)" width="600" height="300"/>
-<img src="[https://github.com/NadiDU/Charles/blob/main/HW/2.png](https://github.com/NadiDU/Charles/blob/main/HW/4.png)" width="600" height="300"/>
+ <img src="https://github.com/NadiDU/Charles/blob/main/HW/3.png" width="600" height="300"/>
+<img src="https://github.com/NadiDU/Charles/blob/main/HW/4.png" width="600" height="300"/>
