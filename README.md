@@ -140,5 +140,6 @@ Task:
  ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
  ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
 
-
+ <img src="https://github.com/NadiDU/Charles/blob/main/HW/11.png" width="600" height="300"/>
+<img src="https://github.com/NadiDU/Charles/blob/main/HW/12.png" width="600" height="300"/>
 
