@@ -62,3 +62,5 @@ Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить параметры запроса в Charles так, чтобы в Postman пришел ответ где другое name, daily_food > weight из запроса, а daily_sleep < weight из запроса.
 
+ <img src="https://github.com/NadiDU/Charles/blob/main/HW/5.png" width="600" height="300"/>
+<img src="https://github.com/NadiDU/Charles/blob/main/HW/6.png" width="600" height="300"/>
