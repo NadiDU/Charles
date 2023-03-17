@@ -89,3 +89,5 @@ Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
 - Сделать через Charles так, чтобы сервер вернул 500 код.
 - Сделать через Charles так, чтобы сервер вернул 405 код.
+ <img src="https://github.com/NadiDU/Charles/blob/main/HW/7.png" width="600" height="300"/>
+<img src="https://github.com/NadiDU/Charles/blob/main/HW/8.png" width="600" height="300"/>
