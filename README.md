@@ -91,3 +91,25 @@ Task:
 - Сделать через Charles так, чтобы сервер вернул 405 код.
  <img src="https://github.com/NadiDU/Charles/blob/main/HW/7.png" width="600" height="300"/>
 <img src="https://github.com/NadiDU/Charles/blob/main/HW/8.png" width="600" height="300"/>
+
+
+# Ex_5:
+Method: GET
+EndPoint: /object_info_4
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': int(age),
+          'salary': [salary, str(salary * 2), str(salary * 3)]}
+
+
+Task:
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
+ ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.
+ ⁃ Подменить salary в request
+ ⁃ Подменить (salary * 2) в response
+
