@@ -113,3 +113,28 @@ Task:
  ⁃ Подменить salary в request
  ⁃ Подменить (salary * 2) в response
 
+# Ex_6:
+Method: POST
+EndPoint: /user_info_2
+request form data: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'start_qa_salary': salary,
+          'qa_salary_after_6_months': salary * 2,
+          'qa_salary_after_12_months': salary * 2.7,
+          'qa_salary_after_1.5_year': salary * 3.3,
+          'qa_salary_after_3.5_years': salary * 3.8,
+          'person': {'u_name': [user_name, salary, age],
+                     'u_age': age,
+                     'u_salary_5_years': salary * 4.2}
+          }
+
+
+Task:
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
+ ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
+ ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
+
