@@ -64,3 +64,28 @@ Task:
 
  <img src="https://github.com/NadiDU/Charles/blob/main/HW/5.png" width="600" height="300"/>
 <img src="https://github.com/NadiDU/Charles/blob/main/HW/6.png" width="600" height="300"/>
+
+# Ex_4:
+Method: GET
+EndPoint: /object_info_3
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': age,
+          'salary': salary,
+          'family': {'children': [['Alex', 24], ['Kate', 12]],
+                     'pets': {'cat':{'name':'Sunny',
+                                     'age': 3},
+                              'dog':{'name':'Luky',
+                                     'age': 4}},
+                     'u_salary_1_5_year': salary * 4}
+          }
+
+Task:
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
+- Сделать через Charles так, чтобы сервер вернул 500 код.
+- Сделать через Charles так, чтобы сервер вернул 405 код.
